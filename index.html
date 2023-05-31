@@ -9,58 +9,132 @@
   </head>
   <body>
     <header>
-      <nav><img src="/images/menu.png" alt="Menù" /></nav>
+      <nav>
+        <ul>
+          <li><a href="./">Home</a></li>
+          <li><a href="./">Blog</a></li>
+          <li><a href="./">Works</a></li>
+          <li><a href="./">Contact</a></li>
+        </ul>
+        <img src="/images/menu.png" alt="Menù" />
+      </nav>
     </header>
     <main>
-      <div class="immagine_profilo">
-        <img src="/images/pic.png" alt="immagine_profilo" />
+      <div class="hero">
+        <div class="profilo">
+          <img src="/images/pic.png" alt="immagine_profilo" />
+        </div>
+        <div class="testo_hero">
+          <h1>
+            Hi, I am John,<br />
+            Creative Technologist
+          </h1>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+          <button>Download Resume</button>
+        </div>
       </div>
-      <h1>Hi, I am John, Creative Technologist</h1>
-      <p>
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-        sint. Velit officia consequat duis enim velit mollit. Exercitation
-        veniam consequat sunt nostrud amet.
-      </p>
-      <button>Download Resume</button>
       <div>
-        <p>Recent posts</p>
-        <div>
-          <h2>Making a design system from scratch</h2>
-          <p>12 Feb 2020 | Design, Pattern</p>
-          <p>
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit. Exercitation
-            veniam consequat sunt nostrud amet.
-          </p>
+        <div class="recent">
+          <div class="recent_titolo">
+            <p>Recent posts</p>
+            <a href="./">View all</a>
+          </div>
+          <div class="post_card">
+            <div class="post">
+              <h2>Making a design system from scratch</h2>
+              <div class="data">
+                <p>12 Feb 2020</p>
+                <p>|</p>
+                <p>Design, Pattern</p>
+              </div>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+            <div class="post">
+              <h2>Creating pixel perfect icons in Figma</h2>
+              <div class="data">
+                <p>12 Feb 2020</p>
+                <p>|</p>
+                <p>Design, Pattern</p>
+              </div>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
         </div>
-        <div>
-          <h2>Creating pixel perfect icons in Figma</h2>
-          <p>12 Feb 2020 | Design, Pattern</p>
-          <p>
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit. Exercitation
-            veniam consequat sunt nostrud amet.
-          </p>
-        </div>
-        <div>
+        <div class="Works">
           <p>Featured works</p>
-          <img src="/images/Rectangle 30.png" alt="Featured_works" />
-          <h2>Designing Dashboards</h2>
-          <p>2020</p>
-          <p>Dashboard</p>
-          <p>
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit. Exercitation
-            veniam consequat sunt nostrud amet.
-          </p>
+        </div>
+        <div class="featured_main">
+          <div class="featured">
+            <img src="/images/Rectangle 30.png" alt="Featured_works" />
+          </div>
+          <div class="data_dashboard">
+            <h2>Designing Dashboards</h2>
+            <div class="buttons">
+              <p>2020</p>
+              <p>Dashboard</p>
+            </div>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </div>
+        </div>
+        <div class="featured_main">
+          <div class="featured">
+            <img src="/images/Rectangle 32.png" alt="Featured_works" />
+          </div>
+          <div class="data_dashboard">
+            <h2>Designing Dashboards</h2>
+            <div class="buttons">
+              <p>2018</p>
+              <p>Illustration</p>
+            </div>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </div>
+        </div>
+        <div class="featured_main">
+          <div class="featured">
+            <img src="/images/Rectangle 34.png" alt="Featured_works" />
+          </div>
+          <div class="data_dashboard">
+            <h2>Designing Dashboards</h2>
+            <div class="buttons">
+              <p>2018</p>
+              <p>Typography</p>
+            </div>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </div>
         </div>
       </div>
     </main>
     <footer>
-      <img src="/images/fb.png" alt="Facebook_icon" />
-      <img src="/images/insta.png" alt="Insta_icon" />
-      <img src="/images/twitter.png" alt="Twitter_icon" />
-      <img src="/images/Linkedin.png" alt="Linkedin_icon" />
+      <div class="icone">
+        <img src="/images/fb.png" alt="Facebook_icon" />
+        <img src="/images/insta.png" alt="Insta_icon" />
+        <img src="/images/twitter.png" alt="Twitter_icon" />
+        <img src="/images/Linkedin.png" alt="Linkedin_icon" />
+      </div>
       <p>Copyright ©2020 All rights reserved</p>
     </footer>
   </body>
